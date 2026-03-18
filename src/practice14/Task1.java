@@ -11,7 +11,7 @@ public class Task1 {
         UserInput userInput = new UserInput();
         Random random = new Random();
 
-        int arraySize = userInput.inputInteger("Ввудите длину массива:");
+        int arraySize = userInput.inputInteger("Введите длину массива:");
         int[] arrayInt = new int[arraySize];
 
         int min = userInput.inputInteger("Введите начало массива:");
